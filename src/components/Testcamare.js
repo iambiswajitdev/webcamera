@@ -1,7 +1,7 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import QRScan from "qrscan";
 
-class App extends Component {
+class Testcamare extends Component {
   constructor(props) {
     super(props);
     this.state = { value: "", watching: false };
@@ -30,4 +30,3 @@ class App extends Component {
     );
   }
 }
-export default App;
